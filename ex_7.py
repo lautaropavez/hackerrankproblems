@@ -1,11 +1,8 @@
-if __name__ == '__main__':
-    a = int(input())
-    b = int(input())
-    
-    c = a + b
-    d = a - b
-    e = a * b
-    
-    print(c)
-    print(d)
-    print(e)
+import numpy
+
+def arrays(arr):
+    # complete this function use numpy.array
+
+arr = input().strip().split(' ')
+result = arrays(arr)
+print(result)
